@@ -31,6 +31,9 @@ dependencies:
     version: 1.0.7(tailwindcss@3.4.3)
 
 devDependencies:
+  '@ardasevinc/prettier-config':
+    specifier: ^0.1.4
+    version: 0.1.4
   '@types/node':
     specifier: ^20
     version: 20.12.7
@@ -66,6 +69,11 @@ packages:
   /@alloc/quick-lru@5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  /@ardasevinc/prettier-config@0.1.4:
+    resolution: {integrity: sha512-nR09iKTWyyXBpo+PStUfaP/AKhPPXYCiL/L8RAsA5Du3c1uNadaqCWEo64Yp92X3cU8phBisl7bFCF+x1J9cgg==}
+    engines: {npm: '>=9'}
+    dev: true
 
   /@babel/runtime@7.24.4:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
