@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Header from '@/components/header';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -15,8 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={inter.variable}>{children}</body>
+    <html lang='en' className={`dark ${inter.variable}`}>
+      <body className='antialiased'>
+        <div className='p-4 min-h-dvh'>
+          <Header />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
